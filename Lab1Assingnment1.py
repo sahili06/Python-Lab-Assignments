@@ -1,0 +1,8 @@
+name=input("Enter employeee name:")
+empid=(input("Enter employeee Department:"))
+basicSalary=float(input("Enter Basic salary:"))
+DA=float((92/100)*basicSalary)
+HRA=float((58/100)*basicSalary)
+TA=float((30/100)*basicSalary)
+Salary=float(basicSalary+DA+HRA+TA-500)
+print(f"Salary is {Salary:.2f}")
